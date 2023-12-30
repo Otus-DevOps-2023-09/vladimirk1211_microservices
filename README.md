@@ -1,6 +1,22 @@
 # vladimirk1211_microservices
 vladimirk1211 microservices repository
 
+# docker-4
+- Подключился к Docker host'у
+- Запустил контейнер с использованием none-драйвера
+- Запустил контейнер с использованием host-драйвера
+- Создал bridge-сеть reddit
+- Запустил проект на сети reddit
+- Запустил проект с сетевыми алиасами
+- Создал сети back_net и front_net
+- Запустил проект с созданными сетями
+- Установил docker-compose
+- Сконфигурировал docker-compose.yml
+- Задал переменную через export и выполнил `docker-compose up -d`
+- Параметризировал docker-compose.yml, описал переменные в .env и выполнил `docker-compose up -d`
+- Добавил .env в .gitignore, скопировал .env в .env.example
+- Базовое имя проекта образуется из имени каталога и имени контейнера. Его можно задать используя ключ -p в команде `docker-compose up`
+
 # docker-3
 - Подключился к Docker host'у
 - Скачал архив и подготовил каталог src
