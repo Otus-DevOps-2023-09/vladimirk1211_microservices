@@ -1,6 +1,27 @@
 # vladimirk1211_microservices
 vladimirk1211 microservices repository
 
+# monitoring-1
+- Создал VM в Yandex.Cloud
+- Подключился к Docker host'у
+- Запустил Prometheus в контейнере
+- Ознакомился с веб интерфейсом Prometheus
+- Остановил контейнер с Prometheus
+- Создал директорию docker в корне репозитория и переупорядочил структуру директорий
+- Создал директорию monitoring/prometheus и сконфигурировал там Dockerfile
+- Сконфигурировал monitoring/prometheus/Prometheus.yml
+- Собрал образ prometheus
+- Собрал образы микросервисов
+- Добавил в docker-compose.yml конфигурацию Prometheus
+- Запустил микросервисы
+- Поработал в веб интерфейсе Prometheus, посмотрел на график при выключенном сервисе
+- Добавил в docker-compose.yml конфигурацию node-exporter
+- Добавил job в prometheus.yml
+- Пересобрал Prometheus
+- Пересоздал микросервисы
+- Поработал в веб интерфейсе Prometheus
+- Запушил собранные образы на DockerHub (https://hub.docker.com/u/vladimirk1211)
+
 # docker-4
 - Подключился к Docker host'у
 - Запустил контейнер с использованием none-драйвера
