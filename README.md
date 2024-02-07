@@ -1,6 +1,11 @@
 # vladimirk1211_microservices
 vladimirk1211 microservices repository
 
+# kubernetes-1
+- Сконфигурировал файлы deployment.yml
+- Подняты две ноды для установки k8s
+- Подняты master и worker
+
 # docker-4
 - Подключился к Docker host'у
 - Запустил контейнер с использованием none-драйвера
