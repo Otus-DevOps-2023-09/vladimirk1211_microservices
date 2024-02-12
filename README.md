@@ -1,6 +1,27 @@
 # vladimirk1211_microservices
 vladimirk1211 microservices repository
 
+# logging-1
+- Обновлен код в директории /src
+- Выполнена сборка образов при помощи скриптов docker_build.sh
+- Подготовлено окружение в Yandex.Cloud
+- Сконфигурирован docker/docker-compose-logging.yml
+- Сконфигурирован logging/fluentd/Dockerfile
+- Сконфигурирован logging/fluentd/fluent.conf
+- Собран образ для fluentd
+- Настроена сборка с тэгом logging
+- Просмотрены логи в терминале
+- Сконфигурирован docker/docker-compose.yml
+- Поднята инфрастурктура
+- Изучен интерфейс Kibana
+- Переконфигурирован logging/fluentd/fluent.conf
+- Изменен драйвер логирования
+- Добавлен фильтр во Fluentd
+- Добавлен Grok-шаблон
+- Добавлен Zipkin
+- Переподнята инфраструктура
+- Просмотрены трейсы в Zipkin
+
 # kubernetes-1
 - Сконфигурировал файлы deployment.yml
 - Подняты две ноды для установки k8s
