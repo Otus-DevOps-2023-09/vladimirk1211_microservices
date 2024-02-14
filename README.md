@@ -1,6 +1,14 @@
 # vladimirk1211_microservices
 vladimirk1211 microservices repository
 
+# kubernetes-2
+- установил kubectl
+- установил Minikube
+- запустил и настроил кластер Minikube
+- запустил и настроил кластер Yandex Cloud Managed Service for kubernetes
+- скриншот развернутого Yandex Cloud Managed Service for kubernetes положил в корень репозитория, файл "screen.png"
+- ссылка: "http://84.201.165.158:30174"
+
 # logging-1
 - Обновлен код в директории /src
 - Выполнена сборка образов при помощи скриптов docker_build.sh
