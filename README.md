@@ -1,6 +1,12 @@
 # vladimirk1211_microservices
 vladimirk1211 microservices repository
 
+# kubernetes-3
+- Настроил Ingress
+- Настроил Secret
+- Настроил Network Policy
+- Настроил persistentVolume
+
 # kubernetes-2
 - установил kubectl
 - установил Minikube
