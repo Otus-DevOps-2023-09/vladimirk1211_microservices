@@ -14,6 +14,8 @@ spec:
     matchLabels:
       app: reddit
       component: mongo
+      comment-db: "true"
+      post-db: "true"
   template:
     metadata:
       name: mongo
@@ -31,4 +33,4 @@ spec:
           mountPath: /data/db
       volumes:
       - name: mongo-persistent-storage
-        emptyDir: {}
+        persistentVolumeClaim: mongo-pvc
