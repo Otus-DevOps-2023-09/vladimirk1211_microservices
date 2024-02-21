@@ -1,6 +1,11 @@
 # vladimirk1211_microservices
 vladimirk1211 microservices repository
 
+# kubernetes-4
+- Настроены chart'ы Helm
+- Настроен Gitlab в Kubernetes
+- Настроен CI
+
 # kubernetes-3
 - Настроил Ingress
 - Настроил Secret
